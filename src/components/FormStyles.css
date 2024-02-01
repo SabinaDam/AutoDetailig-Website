@@ -1,0 +1,25 @@
+
+.container-sm {
+  margin-top: auto;
+  color: white;
+}
+
+
+.form-label,
+.form-control {
+  color: white;
+}
+
+
+.form-control-feedback {
+  color: white;
+}
+
+.form-check-label {
+  color: white;
+}
+
+
+.btn-lg {
+  color: white;
+}

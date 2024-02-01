@@ -1,0 +1,64 @@
+.klar{
+    width: 100%;
+    padding: 6ren 1 rem;
+    background: rgb(0, 0, 0);
+}
+
+.card-container{
+    max-width: 2000px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.card{
+    border: 1px solid #eee;
+    color: #eee;
+    text-align: center;
+    padding: 1rem;
+    background-color: #141414;
+}
+
+.card:hover{
+    background-color: #6d6c6c;
+
+}
+
+.card  h3{
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+
+.bar{
+    border-bottom: 1px solid #eee;
+    width: 10%;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+.btc{
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.btn{
+    display: block;
+    width: 80%;
+    margin: 2rem auto;
+}
+.card p{
+    padding: 20px 0;
+}
+
+
+@media screen and (max-width:740px) {
+    .card-container{
+        max-width: 90%;
+        margin: 0;
+    }
+}
