@@ -1,20 +1,18 @@
-import React from 'react'
-import Navbar  from "../components/Navbar";
-import Footer from "../components/Footer";
-import HeroImgBil from '../components/HeroImgBil';
+import React from 'react';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import KlargoringPrice from '../components/KlargoringPrice';
-
-
+import HeroImgKlar from '../components/HeroImgKlar';
 
 const Klargoring = () => {
   return (
     <div>
       <Navbar />
-      <HeroImgBil heading="Klargoring" text="nb"/>
+      <HeroImgKlar heading="Klargoring" text="nb" />
       <KlargoringPrice />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Klargoring
+export default Klargoring;

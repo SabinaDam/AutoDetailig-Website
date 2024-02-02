@@ -1,8 +1,8 @@
 import React from 'react'
 import "./ServiceWorkStyles.css"
-import pro1 from "../assets/images/detailing.png";
-import pro2 from "../assets/images/polish22.png"
-import pro3 from "../assets/images/window.png"
+import pro1 from "../assets/images/Daek.png";
+import pro2 from "../assets/images/eFTERsYN.png"
+import pro3 from "../assets/images/FejlFind.png"
 import { Link } from "react-router-dom";
 
 const ServiceWork = () => {
@@ -19,7 +19,7 @@ const ServiceWork = () => {
              forbliver i god stand, og det kan forlænge dens levetid.
           </p>
           <div>
-            <Link to="/pricing" className="btn">View</Link>
+            <Link to="/hujl" className="btn">View</Link>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@ const ServiceWork = () => {
              som ny og beskyttet mod elementerne.
           </p>
           <div>
-            <Link to="/pricing" className="btn">View</Link>
+            <Link to="/syn" className="btn">View</Link>
           </div>
         </div>
       </div>
@@ -50,7 +50,7 @@ const ServiceWork = () => {
              og mere privatliv.
           </p>
           <div>
-            <Link to="/pricing" className="btn">View</Link>
+            <Link to="/fejl" className="btn">View</Link>
           </div>
         </div>
       </div>

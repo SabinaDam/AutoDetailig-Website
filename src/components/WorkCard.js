@@ -19,7 +19,7 @@ const WorkCard = () => {
                forbliver i god stand, og det kan forlænge dens levetid.
             </p>
             <div>
-              <Link to="/klargoringPrice" className="btn">View</Link>
+              <Link to="/klargoring" className="btn">View</Link>
             </div>
           </div>
         </div>

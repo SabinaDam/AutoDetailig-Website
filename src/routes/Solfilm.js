@@ -1,14 +1,14 @@
 import React from 'react'
 import  Navbar  from "../components/Navbar";
 import Footer from "../components/Footer";
-import HeroImgBil from '../components/HeroImgBil';
+import HeroImgSol from '../components/HeroImgSol.js';
 import SolfilmPrice from '../components/SolfilmPrice';
 
 const Solfilm = () => {
   return (
     <div>
       <Navbar />
-      <HeroImgBil heading="Solfilm" text="Chose your favorite"/>
+      <HeroImgSol heading="Solfilm" text="Hvis du gerne vil give din bil et elegant strejf, kunne du overveje solfilm."/>
       <SolfilmPrice />
       <Footer />
     </div>
