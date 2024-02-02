@@ -16,7 +16,7 @@ function FormExample() {
 
   const handleSubmit = (event) => {
     const form = event.currentTarget;
-    if (form.checkValidity() === false) {
+    if (form.checkValidity() === true) {
       event.preventDefault();
       event.stopPropagation();
 
