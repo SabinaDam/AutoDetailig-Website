@@ -2,7 +2,7 @@
     width: 100%;
     height: 60vh;
     position: relative;
-    overflow: hidden; /* Ensure that child elements do not overflow */
+    overflow: hidden;
 }
 
 .hero-img::before {
@@ -16,7 +16,7 @@
     top: 0;
     left: 0;
     z-index: 1;
-    opacity: 0.7; /* Adjust the opacity as needed */
+    opacity: 0.7; 
 }
 
 .video-overlay {
@@ -25,13 +25,13 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Adjust the background color and opacity as needed */
+    background: rgba(11, 11, 11, 0.5);
     z-index: 2;
 }
 
 .heading {
     position: absolute;
-    top: 50%; /* Adjust the vertical position as needed */
+    top: 50%; 
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -40,13 +40,13 @@
 
 .heading h1 {
     font-size: 2.4rem;
-    color: white; /* Adjust the text color as needed */
+    color: white; 
 }
 
 .heading p {
     font-size: 1.4rem;
     text-align: center;
-    color: white; /* Adjust the text color as needed */
+    color: white; 
 }
 
 @media screen and (max-width: 640px) {

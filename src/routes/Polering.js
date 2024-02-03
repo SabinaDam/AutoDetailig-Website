@@ -10,7 +10,7 @@ const Polering = () => {
   return (
     <div>
       <Navbar />
-      <HeroImgBil heading="Polering af Bil" text="nb"/>
+      <HeroImgBil heading="Polering af Bil" text="*priserne varierer afhængigt af bilens størrelse"/>
       <PolishPrice />
       <Footer />
     </div>

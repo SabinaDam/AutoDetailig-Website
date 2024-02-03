@@ -1,108 +1,66 @@
+import Carousel from 'react-bootstrap/Carousel';
+import ExampleCarouselImage from './ExampleCarouselImage';
+import { FaStar } from 'react-icons/fa';
 
-import { FaQuoteLeft, FaStar } from 'react-icons/fa';
-
-import React from 'react'
-
-const OwlCarousel = () => {
+function OwlCarousel() {
   return (
-    <div className='container-sm'>
-      <section id="testimonials" className="section-padding text-center border-top">
-        <div className="container"> 
-          <div className="row">
-            <div className="col-12 text-center">
-              <div className="section-title">
-                <h1 className="display-4 fw-semibold">Kundeanmeldelser</h1>
-                <div className="line"></div>
-                <p>Lorem ipsum dolor sit amet.</p>
-              </div>
-            </div>
+    <Carousel fade>
+      <Carousel.Item>
+        <ExampleCarouselImage altText="Image 1" />
+        <Carousel.Caption>
+          <div className="quote"> {/* Use className instead of class */}
+            <i className="fa fa-quote-left"></i>
+            <h2>Grundig og effektiv</h2>
           </div>
-       
-          <div className="owl-carousel owl-theme testimonials-container">
-            
-            <div className="item testimonial-card">
-              <main className="test-card-body">
-                <div className="quote">
-                  <FaQuoteLeft />
-                  <h2>God kvalitet</h2>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, dignissimo repellendus? Porro explicabo, fuga deserunt quos quaerat animi odit placeat illum, doloribus voluptates praesentium recusandae numquam, dignissimos rerum consequuntur labore.</p>
-                <div className="rating">
-                  <FaStar />
-                  <FaStar />
-                  <FaStar />
-                  <FaStar />
-                  <FaStar />
-                </div>
-              </main>
-              <div className="profile">
-                <div className="profile-image">
-                  <img src="./assets/images/item1.jpg" alt="Person" />
-                </div>
-                <div className="profile-desc">
-                  <span>Person navn</span>
-                  <span>Beskrivelse</span>
-                </div>
-              </div>
-            </div>
-          
-            <div className="item testimonial-card">
-              <main className="test-card-body">
-                <div className="quote">
-                  <FaQuoteLeft />
-                  <h2>God kvalitet</h2>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, dignissimo repellendus? Porro explicabo, fuga deserunt quos quaerat animi odit placeat illum, doloribus voluptates praesentium recusandae numquam, dignissimos rerum consequuntur labore.</p>
-                <div className="rating">
-                  <FaStar />
-                  <FaStar />
-                  <FaStar />
-                  <FaStar />
-                  <FaStar />
-                </div>
-              </main>
-              <div className="profile">
-                <div className="profile-image">
-                  <img src="./assets/images/item1.jpg" alt="Person" />
-                </div>
-                <div className="profile-desc">
-                  <span>Person navn</span>
-                  <span>Beskrivelse</span>
-                </div>
-              </div>
-            </div>
-            <div className="item testimonial-card">
-              <main className="test-card-body">
-                <div className="quote">
-                  <FaQuoteLeft />
-                  <h2>God kvalitet</h2>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, dignissimo repellendus? Porro explicabo, fuga deserunt quos quaerat animi odit placeat illum, doloribus voluptates praesentium recusandae numquam, dignissimos rerum consequuntur labore.</p>
-                <div className="rating">
-                  <FaStar />
-                  <FaStar />
-                  <FaStar />
-                  <FaStar />
-                  <FaStar />
-                </div>
-              </main>
-              <div className="profile">
-                <div className="profile-image">
-                  <img src="./assets/images/item1.jpg" alt="Person" />
-                </div>
-                <div className="profile-desc">
-                  <span>Person navn</span>
-                  <span>Beskrivelse</span>
-                </div>
-              </div>
-            </div>
+          <p>Grundig og effektiv ... imponeret over hvor godt bilen kunne komme til at se ud igen.</p>
+          <div className="rating"> {/* Use className instead of class */}
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
           </div>
-         
-        </div>
-      </section>
-     </div>
-  )
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <ExampleCarouselImage altText="Image 2" />
+        <Carousel.Caption>
+          <div className="quote"> {/* Use className instead of class */}
+            <i className="fa fa-quote-left"></i>
+            <h2> Professionelt</h2>
+          </div>
+          <p>Professionelt, perfekt og fantastisk service, 
+            jeg kan helt klart anbefale dem hvis man har en bil
+            man er glad for og gerne vil passe på den. 😍😍
+          </p>
+          <div className="rating"> {/* Use className instead of class */}
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+          </div>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <ExampleCarouselImage altText="Image 3" />
+        <Carousel.Caption>
+          <div className="quote"> {/* Use className instead of class */}
+            <i className="fa fa-quote-left"></i>
+            <h2>Best of the best!</h2>
+          </div>
+          <p>Best of the best. They are very careful at every detail, you can clearly see that they are passionate of what they are doing! Highly recommend! You won’t regret i!</p>
+          <div className="rating"> {/* Use className instead of class */}
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+          </div>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
 }
 
-export default OwlCarousel
-
+export default OwlCarousel;

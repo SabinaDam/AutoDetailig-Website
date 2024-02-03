@@ -19,7 +19,7 @@ const ServiceWork = () => {
              forbliver i god stand, og det kan forlænge dens levetid.
           </p>
           <div>
-            <Link to="/hujl" className="btn">View</Link>
+            <Link to="/hujl" className="btn">Vis mere</Link>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@ const ServiceWork = () => {
              som ny og beskyttet mod elementerne.
           </p>
           <div>
-            <Link to="/syn" className="btn">View</Link>
+            <Link to="/syn" className="btn">Vis mere</Link>
           </div>
         </div>
       </div>
@@ -50,7 +50,7 @@ const ServiceWork = () => {
              og mere privatliv.
           </p>
           <div>
-            <Link to="/fejl" className="btn">View</Link>
+            <Link to="/fejl" className="btn">Vis mere</Link>
           </div>
         </div>
       </div>

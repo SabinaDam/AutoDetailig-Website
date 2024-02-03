@@ -2,7 +2,7 @@
     width: 100%;
     height: 60vh;
     position: relative;
-    overflow: hidden;/* Ensure that child elements do not overflow */
+    overflow: hidden;
 }
 
 .hero-img1::before {

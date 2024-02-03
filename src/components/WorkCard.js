@@ -19,7 +19,7 @@ const WorkCard = () => {
                forbliver i god stand, og det kan forlænge dens levetid.
             </p>
             <div>
-              <Link to="/klargoring" className="btn">View</Link>
+              <Link to="/klargoring" className="btn">Vis mere</Link>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ const WorkCard = () => {
                som ny og beskyttet mod elementerne.
             </p>
             <div>
-              <Link to="/polering" className="btn">View</Link>
+              <Link to="/polering" className="btn">Vis mere</Link>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@ const WorkCard = () => {
                og mere privatliv.
             </p>
             <div>
-              <Link to="/solfilm" className="btn">View</Link>
+              <Link to="/solfilm" className="btn">Vis mere</Link>
             </div>
           </div>
         </div>

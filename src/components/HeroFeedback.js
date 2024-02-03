@@ -9,7 +9,6 @@ const HeroFeedback = () => {
       <video className='intro-video' src={FeedbackVid} autoPlay loop muted alt='video'></video>
       <div className='heading'>
         <h1>FEEDBACK</h1>
-        <p>Vores glede kunde </p>
       </div>
       <div>
         <OwlCarousel />

@@ -8,7 +8,7 @@ const Klargoring = () => {
   return (
     <div>
       <Navbar />
-      <HeroImgKlar heading="Klargoring" text="nb" />
+      <HeroImgKlar heading="Klargoring" text="*priserne varierer afhængigt af bilens størrelse" />
       <KlargoringPrice />
       <Footer />
     </div>
