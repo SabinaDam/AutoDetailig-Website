@@ -11,7 +11,8 @@ function FormExample() {
   const [name, setName]=useState("");
   const [email, setEmail]=useState("");
   const [city, setCity]=useState("");
-  const [message, setMessage]=useState("")
+  const [phone, setPhone]=useState("")
+  const [message, setMessage]=useState("");
   const [validated, setValidated] = useState(false);
 
   const handleSubmit = (event) => {
@@ -24,6 +25,7 @@ function FormExample() {
         name: name,
         email: email,
         city: city,
+        phone: phone,
         message: message,
       })
       .then(() => {
@@ -36,6 +38,7 @@ function FormExample() {
       setName("");
       setEmail("");
       setCity("");
+      setPhone("");
       setMessage("");
     }
 
@@ -82,10 +85,27 @@ function FormExample() {
           </Form.Control.Feedback>
         </Form.Group>
 
+        <Form.Group as={Col} md="3" controlId="validationCustom04" className="mb-4">
+          <Form.Label>Tlf.</Form.Label>
+          <Form.Control
+          type="text"
+          placeholder="Mobil nr."
+          value={phone}
+          onChange={(e) => setPhone(e.target.value)}
+          required
+        />
+          <Form.Control.Feedback type="invalid">
+            en gyldig tilstand.
+          </Form.Control.Feedback>
+        </Form.Group>
+
+
+
+
         <Row className="mb-3">
         <Form.Group as={Col} md="3" controlId="validationCustomCar">
-          <Form.Label>Bil</Form.Label>
-          <Form.Control type="text" required>
+          <Form.Label>Nummerplade</Form.Label>
+          <Form.Control type="text" placeholder='ex. AB 12 134' required>
           </Form.Control>
           <Form.Control.Feedback type="invalid">
           Vælg venligst bil
@@ -97,7 +117,7 @@ function FormExample() {
          <Form.Label>Besked</Form.Label>
           <Form.Control
             as="textarea"
-            placeholder="Your message"
+            placeholder="Dit besked her"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             aria-describedby="inputGroupPrepend"
@@ -112,7 +132,7 @@ function FormExample() {
       
       <div className='row'>
         <div className='col-md-4'></div>
-        <div className='col-md-4'><Button className='btn-lg' type="submit">Submit form</Button></div>
+        <div className='col-md-4'><Button className='btn-lg' type="submit">SEND</Button></div>
         <div className='col-md-4'></div>
       </div>
       

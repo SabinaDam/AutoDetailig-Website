@@ -8,7 +8,7 @@
 }
 
 body{
-  background: #000000;
+  background: #434242;
 }
 
 h1, h4, p, a {
@@ -36,7 +36,7 @@ ul{
   
 }
 
-/* .btn-light{
+.btn-light{
   display: flex;
   padding: 12px 32px;
   font-size: 1rem;
@@ -46,7 +46,7 @@ ul{
   border: 1px solid white;
   font-weight: 600;
   cursor: pointer;
-} */
+}
 
 .btn:hover{
   background: gray;

@@ -21,7 +21,7 @@ const DaekComp = () => {
                 <div className="col-lg-6">
                     <img src={Daek} alt="" width="300" height="400" />
                 </div>
-            <div className="col-lg-5">
+            <div className="col-lg-5 mb-4">
                 <h1>Hjulskift og dækservice til lav pris</h1>
                 <p className="mt-3 mb-4">Ønsker du at få skiftet dine hjul hurtigt og sikkert? Hos Skorstensgaard har vi dygtige mekanikere, som hurtigt og effektivt kan skifte bilens hjul, når du skal gå fra sommer- til vinterdæk og tilbage igen.
 
