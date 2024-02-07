@@ -8,7 +8,6 @@ const HeroContact = () => {
         <video className='intro-video' src={ContactVid} autoPlay loop muted alt='video'></video>
         <div className='heading'>
             <h1>KONTAKT OS</h1>
-            <p>Let's talk about your car.</p>
         </div>
     </div>
   )

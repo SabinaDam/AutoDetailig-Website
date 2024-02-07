@@ -8,12 +8,12 @@ function OwlCarousel() {
       <Carousel.Item>
         <ExampleCarouselImage altText="Image 1" />
         <Carousel.Caption>
-          <div className="quote"> {/* Use className instead of class */}
+          <div className="quote"> 
             <i className="fa fa-quote-left"></i>
             <h2>Grundig og effektiv</h2>
           </div>
           <p>Grundig og effektiv ... imponeret over hvor godt bilen kunne komme til at se ud igen.</p>
-          <div className="rating"> {/* Use className instead of class */}
+          <div className="rating"> 
             <FaStar />
             <FaStar />
             <FaStar />
@@ -45,12 +45,12 @@ function OwlCarousel() {
       <Carousel.Item>
         <ExampleCarouselImage altText="Image 3" />
         <Carousel.Caption>
-          <div className="quote"> {/* Use className instead of class */}
+          <div className="quote">
             <i className="fa fa-quote-left"></i>
             <h2>Best of the best!</h2>
           </div>
           <p>Best of the best. They are very careful at every detail, you can clearly see that they are passionate of what they are doing! Highly recommend! You won’t regret i!</p>
-          <div className="rating"> {/* Use className instead of class */}
+          <div className="rating"> 
             <FaStar />
             <FaStar />
             <FaStar />

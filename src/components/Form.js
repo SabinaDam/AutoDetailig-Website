@@ -46,7 +46,7 @@ function FormExample() {
   };
 
   return (
-    <div className='container-sm'>
+    <div className='container- mt-4'>
     <Form noValidate validated={validated} onSubmit={handleSubmit}>
       <Row className="mb-3">
         <Form.Group as={Col} md="4" controlId="validationCustom01">
