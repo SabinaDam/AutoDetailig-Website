@@ -28,7 +28,7 @@ const FeedbackForm = () => {
 
   return (
     <div className='stars mt-5' >
-      <h2 style={{display:'flex', justifyContent: 'center'}}>Giv os stjerner</h2>
+      <h2 style={{display:'flex', justifyContent: 'center', color: 'whitesmoke'}}>Giv os stjerner</h2>
       <div className='array' style={{display: 'flex', justifyContent: 'center'}}>
         {[...Array(5)].map((_, index) => {
           const ratingValue = index + 1;

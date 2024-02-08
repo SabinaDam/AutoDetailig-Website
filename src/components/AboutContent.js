@@ -47,8 +47,15 @@ const AboutContent = () => {
                     <BsBellFill/>
                 </div>
                 <div>
-                    <h5>We are awesome</h5>
-                    <p>adipisicing elit. Animi cumque natus officia!</p>
+                    <h5>Kvalitet</h5>
+                    <p>Det centrale i vores koncept er kvaliteten af vores arbejde. 
+                      Vi investerer derfor løbende i det nyeste udstyr og værktøj, 
+                      samt i uddannelse af vores dygtige personale. Vi vil ikke gå 
+                      på kompromis med vores produkter og det arbejde, vi udfører. 
+                      Vi bruger udelukkende reservedele af OE-kvalitet, så bilerne 
+                      stadig vil være omfattet af eventuelle fabriksgarantier. 
+                     
+                    </p>
                 </div>
             </div>
             <div className="d-flex mb-3">
@@ -56,8 +63,15 @@ const AboutContent = () => {
                   <BsCheckCircleFill />
                 </div>
                 <div>
-                    <h5>We are awesome</h5>
-                    <p>adipisicing elit. Animi cumque natus officia!</p>
+                    <h5>Kunden</h5>
+                    <p>Vi lægger stor vægt på at tale med og lytte til dig, 
+                      så vi kan forstå det reelle behov. Vi ønsker ikke, at foretage 
+                      unødige services eller reparationer på din bil. Hos os er der 
+                      ingen skjulte omkostninger og tillæg, og vi aftaler altid prisen med dig,
+                      inden vi går i gang. Viser det sig undervejs, at opgaven ændrer omfang, 
+                      så kontakter vi dig og finder en god løsning inden vi afslutter opgaven. 
+                      Vi lever nemlig af tilfredse kunder, der stoler på os.
+                    </p>
                 </div>
             </div>
             <div className="d-flex mb-3">
@@ -65,8 +79,19 @@ const AboutContent = () => {
                   <BsFillCarFrontFill /> 
                 </div>
                 <div>
-                    <h5>We are awesome</h5>
-                    <p>adipisicing elit. Animi cumque natus officia!</p>
+                    <h5>Medarbejder</h5>
+                    <p>En dygtig mekaniker hos en autoservice er en pålidelig fagmand,
+                      der udmærker sig ved at diagnosticere, reparere og vedligeholde
+                      køretøjer. Med ekspertise inden for forskellige bilsystemer 
+                      løser de effektivt mekaniske problemer, hvilket sikrer optimal
+                      ydeevne og sikkerhed for køretøjer. Gennem deres 
+                      på detaljer og problemløsningsevner leverer de håndværk af 
+                      høj kvalitet, tjener tillid og tilfredshed fra kunderne. 
+                      Deres dedikation til ekspertise og kontinuerlig læring gøre
+                      dem i stand til at holde sig opdateret med industriens fremskridt,
+                      hvilket giver pålidelige løsninger, der er skræddersyet til hvert 
+                      køretøjs behov.
+                    </p>
                 </div>
             </div>
           

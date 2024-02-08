@@ -14,11 +14,14 @@ body{
 h1, h4, p, a {
   color: white;
   text-decoration: none;
+  
 
 }
 
 ul{
   list-style-type: none;
+  color: whitesmoke;
+  text-align: left;
 }
 
 .btn{

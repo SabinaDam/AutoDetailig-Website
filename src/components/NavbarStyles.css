@@ -9,6 +9,10 @@
     z-index: 10;
 }
 
+.logo{
+    transform: scale(0.6);
+    margin-left: -100px;
+}
 .header-bg{
     background-color: rgba(0, 0, 0, 0.85);
     transition: 0.5s;

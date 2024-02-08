@@ -2,7 +2,7 @@ import React from 'react'
 import "./SolfilmPriceStyles.css"
 import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
+
 
 const SolfilmPrice = () => {
   return (

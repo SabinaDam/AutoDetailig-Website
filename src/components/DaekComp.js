@@ -1,7 +1,7 @@
 import React from 'react';
 import './DaekCompStyles.css';
 import { Link } from 'react-router-dom';
-import Daek from '../assets/images/HjulSkftning.png'
+import Daek from '../assets/images/wheels-trans.png'
 
 
 const DaekComp = () => {
@@ -19,7 +19,7 @@ const DaekComp = () => {
             </div>
             <div className="row justify-content-between align-items-center">
                 <div className="col-lg-6">
-                    <img src={Daek} alt="" width="300" height="400" />
+                    <img src={Daek} alt="" width="400" height="400" />
                 </div>
             <div className="col-lg-5 mb-4">
                 <h1>Hjulskift og dækservice til lav pris</h1>
@@ -29,7 +29,7 @@ const DaekComp = () => {
 
                   Få et tilbud på hjul- og dækskifte her på siden.
                 </p>
-                <Link to="/kontakt" className="btn">BEDE OM ET TILBUD</Link>
+                <Link to="/kontakt" className="btn">Få et tilbud</Link>
             </div>
             </div>
         </div>
