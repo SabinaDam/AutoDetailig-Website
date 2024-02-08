@@ -13,6 +13,7 @@
     margin: auto;
     padding: 1rem;
     max-width: 350px;
+    color: whitesmoke;
 }
 
 .about .left p{
@@ -23,5 +24,19 @@
 .about .right{
     text-align: left;
     max-width: 800px;
+}
+.d-flex .iconbox{
+    color: whitesmoke;
+}
+.d-flex h5{
+    color: #ff8a8a;
+
+}
+.info{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    gap: 30px;
 }
 

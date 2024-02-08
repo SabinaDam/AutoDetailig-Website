@@ -1,0 +1,13 @@
+.film-type{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+@media screen and (max-width:740px) {
+    .film-type{
+        max-width: 90%;
+        margin: auto;
+    }
+}

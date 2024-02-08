@@ -15,7 +15,7 @@ const KlargoringPrice = () => {
                     <p>- Insekt fjernes -</p>
                     <p>- Fælge vaskes -</p>
            
-                    <Link to="/kontakt" className="btn">PURCHASE NOW</Link>
+                    <Link to="/kontakt" className="btn">Bede om et tilbud</Link>
             </div>
     
             <div className="card">
@@ -29,7 +29,7 @@ const KlargoringPrice = () => {
                     <p>- Fælge vaskes -</p>
                     <p>- Dørfalser vaskes -</p>
                
-                    <Link to="/kontakt" className="btn">PURCHASE NOW</Link>
+                    <Link to="/kontakt" className="btn">Bede om et tilbud</Link>
             </div>
     
             <div className="card">
@@ -41,7 +41,7 @@ const KlargoringPrice = () => {
                     <p>- Insekt fjernes -</p>
                     <p>- Fælge vaskes -</p>
                 
-                    <Link to="/kontakt" className="btn">PURCHASE NOW</Link>
+                    <Link to="/kontakt" className="btn">Bede om et tilbud</Link>
             </div>
           </div>
         </div>

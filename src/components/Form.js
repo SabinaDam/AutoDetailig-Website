@@ -46,98 +46,96 @@ function FormExample() {
   };
 
   return (
-    <div className='container- mt-4'>
-    <Form noValidate validated={validated} onSubmit={handleSubmit}>
-      <Row className="mb-3">
-        <Form.Group as={Col} md="4" controlId="validationCustom01">
-          <Form.Label>Dit navn:</Form.Label>
-          <Form.Control
-            required
-            type="text"
-            placeholder="Navn og efternavn"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            
-          />
-          <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
-        </Form.Group>
-        <Form.Group as={Col} md="4" controlId="validationCustom02">
-          <Form.Label>E-mail:</Form.Label>
-          <Form.Control
-            required
-            type="email"
-            placeholder="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            
-          />
-          <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
-        </Form.Group>
+    <div className='container mt-4'>
+  <Form noValidate validated={validated} onSubmit={handleSubmit}>
+    <Row className="mb-3">
+      <Form.Group as={Col} md="4" controlId="validationCustom01">
+        <Form.Label>Dit navn:</Form.Label>
+        <Form.Control
+          required
+          type="text"
+          placeholder="Navn og efternavn"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+        <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+      </Form.Group>
+      <Form.Group as={Col} md="4" controlId="validationCustom02">
+        <Form.Label>E-mail:</Form.Label>
+        <Form.Control
+          required
+          type="email"
+          placeholder="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+      </Form.Group>
 
-        <Form.Group as={Col} md="3" controlId="validationCustom04">
-          <Form.Label>By</Form.Label>
-          <Form.Control type="text" placeholder="By"
+      <Form.Group as={Col} md="3" controlId="validationCustom04">
+        <Form.Label>By</Form.Label>
+        <Form.Control
+          type="text"
+          placeholder="By"
           value={city}
           onChange={(e) => setCity(e.target.value)}
-          required />
-          <Form.Control.Feedback type="invalid">
+          required
+        />
+        <Form.Control.Feedback type="invalid">
           Angiv en gyldig tilstand.
-          </Form.Control.Feedback>
-        </Form.Group>
+        </Form.Control.Feedback>
+      </Form.Group>
 
-        <Form.Group as={Col} md="3" controlId="validationCustom04" className="mb-4">
-          <Form.Label>Tlf.</Form.Label>
-          <Form.Control
+      <Form.Group as={Col} md="2" controlId="validationCustom04" className="mb-2">
+        <Form.Label>Tlf.</Form.Label>
+        <Form.Control
           type="text"
           placeholder="Mobil nr."
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
           required
         />
-          <Form.Control.Feedback type="invalid">
-            en gyldig tilstand.
-          </Form.Control.Feedback>
-        </Form.Group>
+        <Form.Control.Feedback type="invalid">
+          En gyldig tilstand.
+        </Form.Control.Feedback>
+      </Form.Group>
+    </Row>
 
-
-
-
-        <Row className="mb-3">
-        <Form.Group as={Col} md="3" controlId="validationCustomCar">
-          <Form.Label>Nummerplade</Form.Label>
-          <Form.Control type="text" placeholder='ex. AB 12 134' required>
-          </Form.Control>
-          <Form.Control.Feedback type="invalid">
+    <Row className="mb-3">
+      <Form.Group as={Col} md="2" controlId="validationCustomCar" className="mb-2">
+        <Form.Label>Nummerplade</Form.Label>
+        <Form.Control type="text" placeholder='ex. AB 12 134' required />
+        <Form.Control.Feedback type="invalid">
           Vælg venligst bil
-          </Form.Control.Feedback>
-        </Form.Group>
-      </Row>
-        
-        <Form.Group as={Col} md="4" controlId="validationCustomUsername">
-         <Form.Label>Besked</Form.Label>
-          <Form.Control
-            as="textarea"
-            placeholder="Dit besked her"
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            aria-describedby="inputGroupPrepend"
-            required
-          />
-          <Form.Control.Feedback type="invalid">
-            Indtast venligst din besked.
-          </Form.Control.Feedback>
-        </Form.Group>
+        </Form.Control.Feedback>
+      </Form.Group>
+    </Row>
 
-      </Row>
+    <Form.Group as={Col} md="4" controlId="validationCustomUsername" className='mb-2'>
+      <Form.Label>Besked</Form.Label>
+      <Form.Control
+        as="textarea"
+        placeholder="Dit besked her"
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
+        aria-describedby="inputGroupPrepend"
+        required
+      />
+      <Form.Control.Feedback type="invalid">
+        Indtast venligst din besked.
+      </Form.Control.Feedback>
+    </Form.Group>
+
+    <Row className="mb-3">
+      <div className='col-md-4'></div>
+      <div className='col-md-4'><Button className='btn-lg' type="submit">SEND</Button></div>
+      <div className='col-md-4'></div>
+    </Row>
+  </Form>
+</div>
+
       
-      <div className='row'>
-        <div className='col-md-4'></div>
-        <div className='col-md-4'><Button className='btn-lg' type="submit">SEND</Button></div>
-        <div className='col-md-4'></div>
-      </div>
-      
-    </Form>
-    </div>
+   
   );
   
 }

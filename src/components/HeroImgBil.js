@@ -5,7 +5,7 @@ import BilblejeVid from "../assets/images/bilpleje.mp4";
 
 import React, { Component } from 'react';
 
-class HeroImgSol extends Component {
+class HeroImgBil extends Component {
   render() {
     return (
       <div className="hero-img">
@@ -22,4 +22,4 @@ class HeroImgSol extends Component {
 
 
 
-export default HeroImgSol
+export default HeroImgBil
