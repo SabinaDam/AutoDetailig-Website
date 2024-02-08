@@ -1,7 +1,7 @@
 import React from 'react';
 
 import "./HeroFeedbackStyles.css";
-import FeedbackVid from "../assets/images/feedback.mp4"
+import FeedbackVid from "../assets/images/feedback-dark.mp4"
 import OwlCarousel from './OwlCarousel'
 const HeroFeedback = () => {
   return (
