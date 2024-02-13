@@ -43,11 +43,11 @@ const AboutContent = () => {
       <div className="right">
         <div className="info">
         <div className="flexbox-container">
-                <div className="iconbox me-4">
+                <div className="iconbox me-4" style={{color:"red"}}>
                     <BsBellFill/>
                 </div>
                 <div className="item-1">
-                    <h5>Kvalitet</h5>
+                    <h5 style={{color:"gray"}}>Kvalitet</h5>
                     <p>Det centrale i vores koncept er kvaliteten af vores arbejde. 
                       Vi investerer derfor løbende i det nyeste udstyr og værktøj, 
                       samt i uddannelse af vores dygtige personale. Vi vil ikke gå 
@@ -57,11 +57,11 @@ const AboutContent = () => {
                      
                     </p>
                 </div>
-                <div className="iconbox me-4">
+                <div className="iconbox me-4" style={{color:"red"}}>
                   <BsCheckCircleFill />
                 </div>
                 <div className="intem-2">
-                    <h5>Kunden</h5>
+                    <h5 style={{color:"gray"}}>Kunden</h5>
                     <p>Vi lægger stor vægt på at tale med og lytte til dig, 
                       så vi kan forstå det reelle behov. Vi ønsker ikke, at foretage 
                       unødige services eller reparationer på din bil. Hos os er der 
@@ -71,11 +71,11 @@ const AboutContent = () => {
                       Vi lever nemlig af tilfredse kunder, der stoler på os.
                     </p>
                 </div>
-                <div className="iconbox me-4">
+                <div className="iconbox me-4" style={{color: "red"}}>
                   <BsFillCarFrontFill /> 
                 </div>
                 <div className="item-3">
-                    <h5>Medarbejder</h5>
+                    <h5 style={{color:"gray"}}>Medarbejder</h5>
                     <p>En dygtig mekaniker hos en autoservice er en pålidelig fagmand,
                       der udmærker sig ved at diagnosticere, reparere og vedligeholde
                       køretøjer. Med ekspertise inden for forskellige bilsystemer 
