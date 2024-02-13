@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const KlargoringPrice = () => {
     return (
         <div className="klargorinPrice">
-          <div className="card-container">
+          <div className="card-container-klar">
             <div className="card">
                 <h3>- Bronze -</h3>
                 <span className="bar"></span>

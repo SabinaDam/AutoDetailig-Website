@@ -7,8 +7,8 @@ import "./BilplejePriceStyles.css";
 const BilplejePrice = () => {
   return (
     <div className="bilplejeP">
-      <div className="card-container">
-        <div className="card">
+      <div className="card-container-pri">
+        <div className="card-klar">
             <h3>- Bronze -</h3>
             <span className="bar"></span>
             <p className="btc">fra 300 ,-</p>

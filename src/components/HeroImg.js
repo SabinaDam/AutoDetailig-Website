@@ -10,7 +10,7 @@ const HeroImg = () => {
             <video className="intro-video" src={Introvid} autoPlay loop muted alt="video"></video>
         </div>
         <div className="content">
-            <p>Welkommen til</p>
+            <p>Velkommen til</p>
             <h1>JD Autoteknik</h1>
             <div className='row'>
         <div className='col-md-6'><Link to="/bilpleje"

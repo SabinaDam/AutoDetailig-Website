@@ -42,11 +42,11 @@ const AboutContent = () => {
       </div>
       <div className="right">
         <div className="info">
-        <div className="d-flex pt-4 mb-3">
+        <div className="flexbox-container">
                 <div className="iconbox me-4">
                     <BsBellFill/>
                 </div>
-                <div>
+                <div className="item-1">
                     <h5>Kvalitet</h5>
                     <p>Det centrale i vores koncept er kvaliteten af vores arbejde. 
                       Vi investerer derfor løbende i det nyeste udstyr og værktøj, 
@@ -57,12 +57,10 @@ const AboutContent = () => {
                      
                     </p>
                 </div>
-            </div>
-            <div className="d-flex mb-3">
                 <div className="iconbox me-4">
                   <BsCheckCircleFill />
                 </div>
-                <div>
+                <div className="intem-2">
                     <h5>Kunden</h5>
                     <p>Vi lægger stor vægt på at tale med og lytte til dig, 
                       så vi kan forstå det reelle behov. Vi ønsker ikke, at foretage 
@@ -73,12 +71,10 @@ const AboutContent = () => {
                       Vi lever nemlig af tilfredse kunder, der stoler på os.
                     </p>
                 </div>
-            </div>
-            <div className="d-flex mb-3">
                 <div className="iconbox me-4">
                   <BsFillCarFrontFill /> 
                 </div>
-                <div>
+                <div className="item-3">
                     <h5>Medarbejder</h5>
                     <p>En dygtig mekaniker hos en autoservice er en pålidelig fagmand,
                       der udmærker sig ved at diagnosticere, reparere og vedligeholde
@@ -94,7 +90,8 @@ const AboutContent = () => {
                     </p>
                 </div>
             </div>
-          
+            
+           
         </div>
 
         <div style={containerStyles}>

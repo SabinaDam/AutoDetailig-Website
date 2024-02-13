@@ -1,8 +1,10 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import KlargoringPrice from '../components/KlargoringPrice';
+
 import HeroImgKlar from '../components/HeroImgKlar';
+import KlargoringPrice from '../components/KlargoringPrice';
+
 
 const Klargoring = () => {
   return (

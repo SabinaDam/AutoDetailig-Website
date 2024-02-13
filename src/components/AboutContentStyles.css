@@ -25,13 +25,14 @@
     text-align: left;
     max-width: 800px;
 }
-.d-flex .iconbox{
-    color: whitesmoke;
-}
-.d-flex h5{
-    color: #ff8a8a;
 
+.d-flex{
+    display: flex;
 }
+.d-flex .iconbox{
+    color: rgb(255, 254, 254);
+}
+
 .info{
     display: flex;
     align-items: center;

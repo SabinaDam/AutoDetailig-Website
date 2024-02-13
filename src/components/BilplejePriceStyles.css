@@ -4,17 +4,17 @@
     background: rgb(0, 0, 0);
 }
 
-.card-container{
+.card-container-pri{
     max-width: 1130px;
     margin: auto;
     padding: 0 20px;
     box-sizing: border-box;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
 }
 
-.card{
+.card-klar{
     border: 1px solid #eee;
     color: #eee;
     text-align: center;
@@ -22,7 +22,7 @@
     background-color: #141414;
 }
 
-.card:hover{
+.card-klar:hover{
     background-color: #6d6c6c;
 
 }
